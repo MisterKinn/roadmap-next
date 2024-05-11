@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-family: "Verdana";
+}
+
+.roadmap-title {
+    margin-top: 1em;
+    font-size: 125px;
+}
+
+.roadmap-text {
+    margin-top: 2em;
+    font-size: 25px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.white {
+    color: white;
+}
+
+.back {
+    display: inline-block;
+    bakcground-color: #ffffff;
+    color: white;
+    height: 5em;
+    width: 15em;
+    margin-top: 3em;
+    border-radius: 30px;
+    border: 2px solid #333333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
